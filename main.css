@@ -38,6 +38,11 @@ body {
 }
 .Article-Intro {
 	text-indent:5px;
+	padding-top:20px;
+	padding-bottom:5px;
+
+	border-bottom:5px solid #80808059;
+	border-radius:10px;
 }
 .Article-Intro:first-letter {
 	font-size:30px;
