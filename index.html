@@ -3,10 +3,112 @@
 
  <html>
 	<head>
-		<title>Sample</title>
+		<title>Bitracing Blog</title>
+		<link rel="stylesheet" type="text/css" href="main.css" />
+		<style type="text/css">
+			#DeleteAccountButton {
+				background-color:lightblue;
+			}
+			.BrowserDownloadLink {
+				text-decoration:none;
+			}
+			img {
+				max-width:100px;
+				max-height:100px;
+			}
+		</style>
 	</head>
 	<body>
-		<h3>Sample</h3>
-		<p>Hi, I'm a stranger on the internet!</p>
+		<h2 id="BlogTitle">Bitracing Blog</h2>
+		<div id="ColumnsOfLinks">
+			<a href="about.html">About</a>
+			<a href="index.html">Blog</a>
+		</div>
+
+		<h3 class="Article-Title">
+			How to Achieve Privacy and Convenience at the Same Time?
+			<br />
+			<div class="Article-Date">Oct 6, 2022</div>
+		</h3>
+		<p class="Article-Intro">
+			The title says it all. I'll list all the possible strategies to maximize privacy
+			while minimizing any resulting hazzles.
+		</p>
+		<ol class="ListOfItems">
+			<li>
+				<p class="li-title">
+					<a name="#li1" href="#li1" >Delete Unused Online Accounts</a>
+				</p>
+				<form>
+					<input id="DeleteAccountButton" type="submit" name="DeleteAccountAction" value="Delete Account" />
+				</form>
+				<p class="li-description">
+					<a title="Goes to useless websites" href="https://theuselessweb.com/">We have all been there</a>.
+					We sign up for some random websites on the
+					internet with sensitive personal details, such as 
+					email address, date of birth, and legal name! But, what
+					happens after such details are given to the online service matters.
+					Sometimes, we continue to use those online services for years and years
+					with no issues. Most of the times, we simply abandon using the online service
+					for good and leave our personal information with them. As time passes on,
+					the online service might get hacked and all of your personal data gets to be on
+					the hacker's database! What happens to that information is unknown, it might be sold
+					to spammers or governments, who knows? Thus, there is a old saying that..
+				</p>
+				<div class="FamousQuote">
+					<span class="FamousQuote-Content">"Prevention is better than cure"</span>
+					<br />
+					<span class="FamousQuote-Author">- <a href="https://www.rcn.org.uk/get-involved/campaign-with-us/prevention-is-better-than-cure">Desiderius Erasmus</a></span>
+				</div>
+			</li>
+
+			<li>
+				<p class="li-title">
+					<a name="#li2" href="#li2">Use a Privacy-Respecting Browser</a>
+				</p>
+				<a class="BrowserDownloadLink" title="Download Firefox" href="https://www.mozilla.org/en-US/firefox/new/">
+					<img src="https://pbs.twimg.com/media/EK4ZDRdWsAEexxj.png" />
+				</a>
+				<a title="Download Brave" href="https://brave.com/download/">
+					<img src="https://cdni.comss.net/logo/brave_logo.png" />
+				</a>
+				
+				<p class="li-description">
+					Using a privacy respecting browser such as 
+					<a title="Download Firefox" href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>®️
+					or 
+					<a title="Download Brave" href="https://brave.com/download/">Brave</a>®️
+					(not so preferred, I recommend it because of PWA support)
+					will give you privacy benefits right out of the box, such as the built-in
+					adblocking with Brave®️ and advanced tracker blocking with Firefox®️.
+				</p>
+			</li>
+
+			<li>
+				<p class="li-title">
+					<a name="#li3" href="#li3">Use an Adblocker</a>
+				</p>
+				<a title="Install uBlock Origin Extension" href="https://ublockorigin.com/">
+					<img src="https://chan.kemono.party/coomer/src/1652370051322.png" />
+				</a>
+				<p class="li-description">
+					I don't know how people can browse the web without one.
+					If you visit one of those news websites, you'll be bombarded with ads
+					all over the screen. In addition, some ads even redirect to malicious websites
+					that want you to "Update Chrome®️/Firefox®️/Flash®️".
+					Anyway, one of the best adblocker in town is 
+					<a href="https://ublockorigin.com/">uBlock Origin</a>™
+					and It's not recommended to use any other AdBlocker such as 
+					<a href="https://adblockplus.org/">Adblock Plus</a>®️.
+				</p>
+			</li>
+		</ol>
+
+		<p class="Article-Conclusion">
+			In short, If you implement all the strategies described
+			above, you will have 70-90% more online privacy than before!
+			As a note, it's better to view privacy as a slow and gradual process that
+			involves spending some 2-4 hours of time per year rather than a one-time process.
+		</p>
 	</body>
  </html>

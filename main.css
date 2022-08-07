@@ -1,0 +1,88 @@
+body {
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding-left:5%;
+	padding-right:5%;
+}
+#BlogTitle {
+	text-align:center;
+	text-decoration:overline;
+	color:#649df3;
+}
+#ColumnsOfLinks {
+	text-align:center;
+	border-top:5px solid gray;
+	border-bottom:5px solid gray;
+	padding:5px;
+}
+#ColumnsOfLinks > a {
+	text-decoration:none;
+	margin-right:10px;
+}
+#ColumnsOfLinks > a:link {
+	color:#005eff;
+}
+#ColumnsOfLinks > a:visited {
+	color:#48648a;
+}
+
+/* Article Content Styling */
+.Article-Title {
+	text-align:center;
+	background-color:#80808059;
+
+	border:5px solid #80808059;
+	border-radius:10px;
+}
+.Article-Title > .Article-Date {
+	font-size:small;
+}
+.Article-Intro {
+	text-indent:5px;
+}
+.Article-Intro:first-letter {
+	font-size:30px;
+}
+.Article-Conclusion {
+	text-align:center;
+	font-weight:bold;
+	padding:20px;
+	
+	margin-top:20px;
+	margin-bottom:20px;
+
+	border:5px solid gray;
+	border-radius:10px;
+}
+
+/* Styling with lists */
+.ListOfItems {
+	list-style-type:upper-roman;
+}
+.ListOfItems > li > .li-title {
+	font-size:20px;
+}
+.ListOfItems > li > .li-description {
+	padding:2%;
+	background-color:lightgray;
+
+	border:5px solid #80808059;
+	border-radius:10px;
+}
+
+/* Quote Related Styling */
+.FamousQuote {
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+
+	border-top:3px solid gray;
+	border-bottom:3px solid gray;
+}
+.FamousQuote-Content {
+	font-size:larger;
+	font-style:italic;
+}
+.FamousQuote-Author {
+	font-size:small;
+	font-weight:bold;
+}
